@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession</title>
+
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .heart{
+            font-size: 20rem;
+            animation: heart .5s infinite alternate linear;
+        }
+
+        @keyframes heart {
+            from{
+                transform: scale(.7);
+            }
+
+            to{
+                transform: scale(1);
+            }
+        }
+
+        footer small{
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">❤️</div>
+    <footer><small>✍🏾BenCodeur</small></footer>
+</body>
+</html>
